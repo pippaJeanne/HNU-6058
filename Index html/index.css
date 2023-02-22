@@ -1,0 +1,23 @@
+
+
+body{
+    margin: 2.5rem;
+    font-family: fantasy;
+}
+
+div.row {
+    display: flex;
+    margin:auto 2rem;
+}
+
+ div.el {
+     display: inline-block;
+    width: 45%;
+    margin: 0 2rem;
+    vertical-align: top;
+}
+form{
+    width:fit-content;
+    display: inline-block;
+}
+p{display: inline-block;}

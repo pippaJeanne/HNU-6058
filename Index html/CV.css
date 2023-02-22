@@ -1,0 +1,123 @@
+body{
+    margin: .5rem 10rem;
+    box-shadow: 1px 2px 1px 2px ghostwhite;
+    backdrop-filter: blur(2px);
+    background-color: #cff1f1;
+}
+article{
+    background-color: #fafcfc;
+}
+
+header{
+
+text-align: center;
+color:gray;
+border-top: 6px double;
+border-bottom: 5px solid;
+padding: 2rem;
+}
+
+section{
+    padding: .3rem 1rem;
+}
+
+h1,h2{
+text-transform:uppercase;
+}
+
+dl{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: .5rem 1rem;
+    align-items:baseline;
+}
+dt{
+grid-column: 1/span 2;
+font-weight: bold;
+}
+
+dd{
+grid-column: 3/span 10;
+}
+
+.comp > ul{
+    margin:1rem 3rem;
+    display:flex;
+    flex-wrap: wrap;
+}
+.comp > ul>li{
+    width:45%;
+    margin: 0 1rem;
+    padding: 0.3rem;
+}
+section > h2{
+    margin: 1rem;
+}
+.profexp > section {
+    margin: 1rem 3rem;
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: .5rem 1rem;
+    align-items:baseline;
+}
+.profexp > section h3, div:not(.period){
+grid-column: 4 / span 7;
+margin: 0;
+}
+.profexp > section div.period{
+    grid-column: 1/span 3;
+    grid-row:1;
+    font-weight:bold;
+}
+.role {
+    font-weight:bold;
+    color:lightslategray;
+}
+
+.edu > section{
+    margin: 1rem 3rem;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.edu > section > section {
+    display: flex;;
+    width: 100%;
+}
+.edu > section section div.period{
+    margin: 1rem 0;
+    width: 20%;
+    font-weight:bold;
+    order:0;
+}
+.edu > section section div:not(div.period){
+    margin: 1rem 0;
+    width: auto;
+    order:1;
+}
+.edu div h3{
+    margin-top:0;
+}
+footer {
+    
+    border-top: 5px solid;
+    border-bottom: 6px double; 
+    color: gray;
+}
+footer div{
+    display: flex;
+}
+
+footer div span{
+    margin: 0 2rem;
+    padding:1rem;
+    width: 50%;
+    text-align: center;
+}
+
+hr{
+    width: 95%;
+    text-align: center;
+    border: 1px dashed;
+}
