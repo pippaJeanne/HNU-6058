@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 body{
-    margin: 1.5rem;
+    margin: 1rem;
     box-shadow: 1px 2px 1px 2px ghostwhite;
     font-family: 'Handlee', cursive;
 }
@@ -31,7 +33,7 @@ aside{
 header{
 
 text-align: center;
-color:gray;
+color:#6457A6;
 border-top: 6px double;
 border-bottom: 5px solid;
 padding: .5rem;
@@ -43,25 +45,23 @@ section{
 }
 
 h1,h2:not(header h2){
-    text-transform:uppercase;
-    border-bottom: 1.5px solid #6457A6;
-    }
+text-transform:uppercase;
+border-bottom: 1.5px solid #6457A6;
+}
 
 dl{
     display:grid;
     grid-template-columns: repeat(12, 1fr);
     gap: .5rem 1rem;
     align-items:baseline;
-    padding: 0 0 0 2rem;
 }
 dt{
-grid-column: 1/span 3;
+grid-column: 1/span 2;
 font-weight: bold;
-
 }
 
 dd{
-grid-column: 4/span 9;
+grid-column: 3/span 10;
 }
 
 .comp > ul{
@@ -70,7 +70,7 @@ grid-column: 4/span 9;
     flex-wrap: wrap;
 }
 .comp > ul>li{
-    width:100%;
+    width:45%;
     margin: 0 1rem;
     padding: 0.3rem;
 }
@@ -117,7 +117,7 @@ margin: 0;
 }
 .edu > section section div:not(div.period){
     margin: 1rem 0;
-    width: 80%;
+    width: auto;
     order:1;
 }
 .edu div h3{
@@ -127,7 +127,7 @@ footer {
     
     border-top: 5px solid;
     border-bottom: 6px double; 
-    color: gray;
+    color: #6457A6;
 }
 footer div{
     display: flex;
