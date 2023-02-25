@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body{
+    margin: 1rem;
+    box-shadow: 1px 2px 1px 2px ghostwhite;
+    font-family: 'Handlee', cursive;
+    font-size: 1.5rem;
+}
+article{
+    grid-column: secondary;
+    grid-row:1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  
+}
+
+main{
+    display:grid;
+    grid-template-columns: [main] 4fr [secondary] 8fr;
+    gap:1.5rem;
+}
+
+aside{
+    grid-column: main;
+    grid-row:1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: 1px 0 #4BC0D9;
+}
+
+
+header{
+
+text-align: center;
+color:#6457A6;
+border-top: 6px double;
+border-bottom: 5px solid;
+padding: .5rem;
+font-size:0.8rem;
+}
+
+header a{
+    text-decoration: none;
+}
+
+section{
+    padding: .3rem 1rem;
+}
+
+h1,h2:not(header h2){
+text-transform:uppercase;
+border-bottom: 1.5px solid #6457A6;
+}
+
+dl{
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: .5rem 1rem;
+    align-items:baseline;
+    padding-left: 2.5rem;
+}
+dt{
+grid-column: 1/span 4;
+font-weight: bold;
+}
+
+dd{
+grid-column: 5/span 8;
+}
+
+.comp > ul{
+    margin:1rem 2rem;
+    flex-wrap: wrap;
+}
+.comp > ul>li{
+   
+    margin: 0 1rem;
+    padding: 0.3rem;
+}
+section > h2{
+    margin: 1rem;
+}
+.profexp > section {
+    margin: 1rem 3rem;
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: .5rem 1rem;
+    align-items:baseline;
+}
+.profexp > section h3, div:not(.period){
+grid-column: 4 / span 7;
+margin: 0;
+}
+.profexp > section div.period{
+    grid-column: 1/span 3;
+    grid-row:1;
+    font-weight:bold;
+}
+.role {
+    font-weight:bold;
+    color:lightslategray;
+}
+
+.edu > section{
+    margin: 1rem 3rem;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.edu > section > section {
+    display: flex;;
+    width: 100%;
+}
+.edu > section section div.period{
+    margin: 1rem 0;
+    width: 20%;
+    font-weight:bold;
+    order:0;
+}
+.edu > section section div:not(div.period){
+    margin: 1rem 0;
+    width: auto;
+    order:1;
+}
+.edu div h3{
+    margin-top:0;
+}
+footer {
+    
+    border-top: 5px solid;
+    border-bottom: 6px double; 
+    color: #6457A6;
+}
+footer div{
+    display: flex;
+}
+
+footer div span{
+    margin: 0 2rem;
+    padding:1rem;
+    width: 50%;
+    text-align: center;
+}
+
+hr{
+    width: 95%;
+    text-align: center;
+    border: 1px dashed;
+}

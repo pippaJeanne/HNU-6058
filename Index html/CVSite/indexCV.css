@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body{
+margin : 2rem;
+font-family: 'Handlee', cursive;
+font-size: 1.5rem;
+background-color: rgb(246, 250, 250);
+backdrop-filter: blur(3px);
+}
+header{
+    margin:0 5rem;
+}
+
+svg{
+    margin-left:25%;
+    position: relative;
+}
+line{
+    stroke:#6457A6;
+    stroke-width: 1px;
+}
+
+.ppt{
+    width: auto;
+    margin:5% 5rem 0;
+    display:grid;
+    grid-template-columns: [pic] 4fr [text] 6fr;
+    gap: 1rem;
+    box-shadow: 0 0 1px lightgray;
+    background-color: rgb(236, 241, 241);
+}
+
+img{
+    padding:2rem;
+    width: auto;
+    height: 400px;
+    grid-column: pic;
+    grid-row: 1;
+}
+
+#text{
+    grid-column: text;
+    grid-row: 1;
+    margin: 0 2rem;
+    text-align: justify;
+}
+
+.plus{
+    margin: 2rem;
+    display:flex;
+    width: 30%;
+    margin-left:35%;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.buttons{
+    display:flex;
+    padding: 1rem;
+    justify-items: center;
+    
+}
+
+button{
+    margin: .5rem;
+    font-size: x-large;
+    padding: .5rem 1rem;
+    background-color: rgb(236, 241, 241);
+    border-radius: 30%;
+    box-shadow: inset;
+}
+
+button a{
+    text-decoration: none !important;
+}
+
+footer{
+    margin: .5rem;
+}
+
+#udem{
+  padding: 0 5rem;
+  height: 100px;
+  width: auto;
+}
+#svgFooter{
+    transform: rotateX(180deg);
+}
+
+@media only screen and (max-width:600px){
+    .ppt{
+        display:flex;
+        flex-direction:column;
+    }
+}
