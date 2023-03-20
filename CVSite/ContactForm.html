@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contactform.css">
+    <title>
+        Formulaire de contact
+    </title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <a id="retour" href="indexCV.html"><button></button></a>
+    <svg height="10" width="50%">
+        <line x1="40%"  y1="9"  x2="60%" y2="9"/>
+        <line x1="20%"  y1="4"  x2="80%" y2="4"/>
+        <line x1="0"  y1="0"  x2="100%" y2="0"/> </svg>
+
+    <form action="" name="contact" id="contact">
+        <label for="name">Nom :</label>
+        <input name="name"  id="name" type="text" required>
+
+        <label for="email">Email :</label>
+        <input name="email"  id="email" type="email" required>
+
+        <label for="subject">Sujet :</label>
+        <input name="subject"  id="subject" type="text" required>
+
+        <label for="message">Ecrivez votre message ci-dessous :</label>
+        <textarea name="message"  id="message" required></textarea>
+        
+        <input id="button" type="submit" value="Envoyer">
+    </form>
+    <svg id="svgFooter" height="10" width="50%">
+        <line x1="40%"  y1="9"  x2="60%" y2="9"/>
+        <line x1="20%"  y1="4"  x2="80%" y2="4"/>
+        <line x1="0"  y1="0"  x2="100%" y2="0"/> </svg>
+    <script src="contactemail.js"></script>
+</body>
+</html>

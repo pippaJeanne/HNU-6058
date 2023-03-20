@@ -1,0 +1,59 @@
+body{
+    margin:1rem 20%;
+    background-color: #edecf1;
+    opacity: .9;
+    background-color: rgb(246, 250, 250);
+    backdrop-filter: blur(3px);
+}
+
+#contact{
+    padding:2rem;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 1;
+}
+
+label{
+    font-size: 1rem;
+    margin:.5rem;
+    padding:.5rem;
+}
+input#name, #email{
+    width:60%;
+    box-shadow: 0 0 5px black;
+}
+
+#subject{
+    box-shadow: 0 0 5px black;
+}
+
+#button{
+    margin:1rem;
+    padding: .5rem;
+    width: 20%;
+    background-color: #6457A6;
+    color:white;
+    margin-left:40%;
+}
+svg{
+    margin:5% 25%;
+    position: relative;
+}
+line{
+    stroke:#6457A6;
+    stroke-width: 1px;
+}
+#svgFooter{
+    transform: rotateX(180deg);
+}
+
+#message{
+    min-height: 100px;
+}
+#retour button::before{
+    content:"\2190";
+}
+#retour, #retour button{
+    transform: translateX(-3rem);
+}
