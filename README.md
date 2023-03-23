@@ -4,7 +4,7 @@
   
   24/03/2023  
    
- Mon projet pour cet atelier a suivi l'idée proposée par la professeure de créer une page CV sous la forme d'un site avec un formulaire de contact. Un CV est toujours un incontournable pour se faire connaître dans le marché du travail, et une version numérique dynamique constitue un atout. Une page de présentation avec des intéractions et la connectivité de l'hypertexte ajoute une couche supplémentaire qui pourrait même inclure des liens aux réseaux sociaux personnels en tant que forme additionnelle de contact et présentation. Telle solution réduit également la pollution numérique en remplaçant une pièce-jointe par un simple lien dans un courriel, par exemple.   
+ Mon projet pour cet atelier a suivi l'idée proposée par la professeure du cours de créer une page CV sous la forme d'un site avec un formulaire de contact. Un CV est toujours un incontournable pour se faire connaître dans le marché du travail, et une version numérique dynamique constitue un atout. Une page de présentation avec des intéractions et la connectivité de l'hypertexte ajoute une couche supplémentaire qui pourrait même inclure des liens aux réseaux sociaux personnels en tant que forme additionnelle de contact et présentation. Telle solution réduit également la pollution numérique en remplaçant une pièce-jointe par un simple lien dans un courriel, par exemple.   
    
  Le site CV présente une courte présentation biographique sommaire où on trouve deux boutons : l'un nous renvoie vers une autre page avec une structure de CV typique imprimable et l'autre bouton renvoie vers une page formulaire de contact.[^1]  
    
